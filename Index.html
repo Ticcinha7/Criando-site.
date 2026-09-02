@@ -1,66 +1,142 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+
+ <!DOCTYPE html>
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Smallville - As Aventuras do Superboy</title>
+  <title>Smallville | As Aventuras de Clark Kent</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-  <h1>Smallville: As Aventuras do Superboy</h1>
+  <!-- CABEÇALHO -->
 
-  <h2>Sobre a série</h2>
+  <header class="cabecalho">
 
-  <p>
-    Smallville é uma série de televisão que acompanha a juventude de Clark Kent,
-    antes de ele se tornar o Superman. A história mostra sua vida em Smallville,
-    seus amigos, sua família e os desafios que ele enfrenta enquanto descobre
-    seus poderes e seu destino.
-  </p>
+    <p class="logo">SMALLVILLE</p>
 
-  <a
-    href="https://pt.wikipedia.org/wiki/Smallville_(s%C3%A9rie_de_televis%C3%A3o)"
-    target="_blank"
-    rel="noopener noreferrer">
-    Saiba mais
-  </a>
+    <p class="subtitulo">
+      As Aventuras de Clark Kent
+    </p>
 
-  <img
-    src="https://upload.wikimedia.org/wikipedia/en/8/81/Smallville_Season_1_DVD.jpg"
-    alt="Imagem relacionada à primeira temporada da série Smallville"
-  >
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#personagens">Personagens</a>
+      <a href="#poderes">Poderes</a>
+      <a href="#temporadas">Temporadas</a>
+      <a href="#curiosidades">Curiosidades</a>
+    </nav>
 
-  <h2>Personagens principais</h2>
+  </header>
 
-  <ul>
-    <li>Clark Kent</li>
-    <li>Lois Lane</li>
-    <li>Lex Luthor</li>
-    <li>Lana Lang</li>
-    <li>Chloe Sullivan</li>
-    <li>Jonathan Kent</li>
-    <li>Martha Kent</li>
-  </ul>
 
-  <h2>Os poderes de Clark</h2>
+  <!-- PRINCIPAL -->
 
-  <p>
-    Ao longo da série, Clark descobre habilidades extraordinárias, como
-    superforça, supervelocidade, visão de calor, visão de raio-X e capacidade
-    de voar. Ele precisa aprender a controlar seus poderes enquanto tenta
-    levar uma vida normal, e vai cresecendo durante a série.
-  </p>
+  <main>
 
-  <button id="botao_tema">Modo Escuro</button>
+    <!-- APRESENTAÇÃO -->
 
-  <script src="./script.js"></script>
+    <section class="hero">
 
-</body>
-</html>
+      <div class="hero-texto">
+
+        <p class="destaque">
+          ⭐ UMA HISTÓRIA ANTES DO CAPA
+        </p>
+
+        <h1>
+          Smallville
+        </h1>
+
+        <h2>
+          O começo da jornada do Superman
+        </h2>
+
+        <p>
+          Antes de ser conhecido como Superman, Clark Kent era apenas
+          um jovem tentando descobrir quem realmente era. Em Smallville,
+          ele precisa aprender a controlar seus poderes, proteger as
+          pessoas que ama e encontrar seu próprio caminho.
+        </p>
+
+        <a
+          class="botao"
+          href="https://pt.wikipedia.org/wiki/Smallville_(s%C3%A9rie_de_televis%C3%A3o)"
+          target="_blank"
+          rel="noopener noreferrer">
+          Conheça a série
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- SOBRE A SÉRIE -->
+
+    <section id="sobre" class="secao">
+
+      <h2>🌾 Sobre Smallville</h2>
+
+      <p>
+        Smallville é uma série de televisão baseada na juventude de
+        Clark Kent, personagem que posteriormente se tornaria o Superman.
+        A produção acompanha sua adolescência e início da vida adulta,
+        mostrando seus relacionamentos, sua família, seus amigos e os
+        desafios relacionados aos seus poderes.
+      </p>
+
+      <p>
+        A série estreou em 2001 e foi exibida durante dez temporadas.
+        Ao longo da história, Clark passa por diversas experiências
+        que ajudam a construir o herói que ele está destinado a ser.
+      </p>
+
+      <p>
+        Diferentemente de muitas histórias tradicionais do Superman,
+        Smallville concentra grande parte da narrativa na vida humana
+        de Clark, explorando suas dúvidas, escolhas, amizades e
+        responsabilidades.
+      </p>
+
+    </section>
+
+
+    <!-- IMAGENS -->
+
+    <section class="secao">
+
+      <h2>📸 O universo de Smallville</h2>
+
+      <div class="galeria">
+
+        <img
+          src="./imagens/smallville1.jpg"
+          alt="Imagem de Clark Kent em Smallville"
+        >
+
+        <img
+          src="./imagens/smallville2.jpg"
+          alt="Personagens da série Smallville"
+        >
+
+      </div>
+
+    </section>
+
+
+    <!-- PERSONAGENS -->
+
+    <section id="personagens" class
